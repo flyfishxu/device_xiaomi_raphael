@@ -325,7 +325,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_raphael
+    android.hardware.light-service.lineage
 
 # Lineage Health
 PRODUCT_PACKAGES += \
