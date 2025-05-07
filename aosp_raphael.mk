@@ -16,7 +16,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 EVO_BUILD_TYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
